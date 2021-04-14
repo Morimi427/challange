@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(255, 221, 35);
+    margin: 0 30px;
+    padding: 0;
+    
+}
+
+/*メニュー横並び */
+
+.menu-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.menu-list li a{
+    text-decoration: none;
+    color: #000;
+    padding: 30px 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    grid-template-rows: 200px 200px;
+} 
+
+.gaiyou{
+    background-color: #fff;
+} 
+
+@media (max-width:500px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
