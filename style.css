@@ -88,6 +88,7 @@ footer{
     height: 100px;
     margin-top: 50px;
     text-align: center;
+   
 
     
 }
@@ -109,9 +110,64 @@ footer .fa-home{
  margin-right: 10px;
 }
 
+/* !!!!!!!!!!記事ページ !!!!!!!!!!!!!!!*/
+
+
+/* 記事横並びの設定 */
+.main{
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+   
+
+}
+
+
+
+
+.article p{
+    margin-bottom: 50px;
+}
+
+.title{
+    margin: 0;
+}
+
+/* 更新日 */
+
+time{
+    color: rgb(119, 115, 122);
+}
+
+.fa-clock{
+    margin-right: 5px;
+}
+
+/*見出し */
+
+.kiji h2{
+    border-left: solid 10px rgb(245, 160, 78);
+    padding-left: 10px;
+    width: auto;
+}
+
+.category{
+    background-color: wheat;
+}
+
+
+
+
 @media (max-width:500px){
     .container{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+
+    .main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
     }
 }
