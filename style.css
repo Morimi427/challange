@@ -1,8 +1,17 @@
 body{
-    /* background-color:rgb(255, 221, 35); */
-    margin: 10px;
+    font-family: 'Noto Sans Japanese',"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: rgb(52, 52, 56);
+    margin: 0;
     padding: 0;
+
     
+}
+
+header{
+    background-color: rgb(16, 72,93);
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*メニュー横並び */
@@ -12,9 +21,8 @@ body{
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content:flex-start;
-    margin-bottom: 20px;
-    background-color: rgb(255, 233, 109);
+   
+    
 
 
 
@@ -23,17 +31,38 @@ body{
 .menu-list li a{
     
     text-decoration: none;
-    color: #000;
+    font-family: 'Alex Brush', cursive;
+    color: #fff;
+    font-size: 2rem;
     padding: 30px 30px;
     margin: 0 auto;
     display: block;
 }
 
 .menu-list li a:hover{
-    background-color: rgb(243, 236, 197);
+    background-color: rgb(43, 110, 133);
+
+}
+
+/* SNS アイコン*/
+
+.sns ul{
+    display: flex;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sns li a{
+    display: block;
+    padding: 30px 30px;
 }
 
 .container{
+    padding-left: 20px;
+    padding-right: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
@@ -82,6 +111,8 @@ body{
     text-align: left;
 }
 
+
+
 /* !!!!!!!!!!記事ページ !!!!!!!!!!!!!!!*/
 
 
@@ -91,10 +122,15 @@ body{
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 10px;
-   
+    padding-right: 10%;
+    padding-left: 10%;   
 
 }
 
+.kiji{
+    padding-right: 50px;
+    padding-left: 50px;
+}
 
 
 .article p{
@@ -102,7 +138,7 @@ body{
 }
 
 .title{
-    margin: 0;
+    margin-bottom: 30px;
 }
 
 /* 更新日 */
@@ -115,27 +151,52 @@ time{
     margin-right: 5px;
 }
 
+.divide{
+    display: flex;
+}
+
+.kiji-cat{
+    background-color:#F7B20C;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 0px 5px;
+}
+
 /*見出し */
 
 .kiji h2{
-    border-left: solid 10px rgb(245, 160, 78);
+    border-left: solid 10px rgb(245, 126, 24);
     padding-left: 10px;
     width: auto;
 }
 
-.category{
-    background-color: wheat;
+.category h1{
+    font-family: 'Alex Brush', cursive;
+
+}
+
+.category ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category li a{
+    text-decoration: none;
+    color: #000;
+    
+
 }
 
 
-
-
-
+/* ###### footer##### */
 
 footer{
-    background-color: rgb(255, 233, 109);
+    background-color: rgb(16, 72,93);
+
     text-decoration: none;
-    height: 100px;
+    
     margin-top: 50px;
     text-align: center;
    
@@ -144,22 +205,25 @@ footer{
 }
 
 footer a{
+    font-family: 'Alex Brush', cursive;
+    
     text-decoration: none;
     display: inline-block;
-    padding: 10px;
-    color: black;
+    vertical-align: middle;
+    padding: 30px;
+    color: #fff;
     
 }
 
 footer a:hover{
-    background-color: rgb(243, 236, 197);
+    background-color: rgb(43, 110, 133);
+
 
 }
 
 footer .fa-home{
  margin-right: 10px;
 }
-
 
 @media (max-width:500px){
     .container{
