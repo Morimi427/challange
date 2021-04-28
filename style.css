@@ -3,6 +3,9 @@ body{
     color: rgb(52, 52, 56);
     margin: 0;
     padding: 0;
+    background-color: #dfe0e2;
+
+
 
     
 }
@@ -71,6 +74,7 @@ header{
 
 .gaiyou{
     background-color: #fff;
+    box-shadow: 0 0 8px gray;
 } 
 
 .gaiyou a{
@@ -111,8 +115,6 @@ header{
     text-align: left;
 }
 
-
-
 /* !!!!!!!!!!記事ページ !!!!!!!!!!!!!!!*/
 
 
@@ -130,6 +132,7 @@ header{
 .kiji{
     padding-right: 50px;
     padding-left: 50px;
+    line-height: 2.5rem;
 }
 
 
@@ -160,7 +163,7 @@ time{
     color: #fff;
     border-radius: 5px;
     margin-left: 10px;
-    padding: 0px 5px;
+    padding: 0px 3px;
 }
 
 /*見出し */
@@ -170,6 +173,7 @@ time{
     padding-left: 10px;
     width: auto;
 }
+
 
 .category h1{
     font-family: 'Alex Brush', cursive;
@@ -187,6 +191,16 @@ time{
     color: #000;
     
 
+}
+
+
+
+/* #########プロフィール ###########*/
+
+
+.profile{
+    background-color: #dfe0e2;
+    height: 200px;
 }
 
 
