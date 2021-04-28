@@ -2,7 +2,6 @@ body{
     font-family: 'Noto Sans Japanese',"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #dfe0e2;
 
 
 
@@ -114,6 +113,10 @@ header{
     width: 100%;
     padding: 5px;
     text-align: left;
+}
+
+.profile{
+    background-color: #dfe0e2;
 }
 
 /* !!!!!!!!!!記事ページ !!!!!!!!!!!!!!!*/
