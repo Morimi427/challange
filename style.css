@@ -263,7 +263,8 @@ time{
     font-size: 0.75px;
     border-radius: 5px;
     margin-left: 10px;
-    padding: 0px 3px;
+    padding: 0px 10px;
+    display: block;
 
     
 }
@@ -294,6 +295,23 @@ time{
     
 
 }
+
+/* 画像サイズ */
+.article img{
+    width: 70%;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/*リンク  */
+
+.article a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
 
 
 /*記事カテゴリー  */
@@ -490,10 +508,14 @@ footer a:hover::after {
 
     }
 
+    .menu-list{
+        padding: 0;
+    }
+
     .menu-list ul{
         margin: 0;
         padding: 3px;
-        flex-direction: row;
+        justify-content: space-around;
         width: 100%;
     }
 
@@ -523,9 +545,15 @@ footer a:hover::after {
         margin: 0;
     }
 
-    .content img{
-        margin: 0;
+    /* 記事ページ */
+
+    .article img{
+        width: 500px;
+        height: 500px;
     }
+
+
+    
 
 
     }
