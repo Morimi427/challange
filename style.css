@@ -298,6 +298,7 @@ time{
 
 /* 画像サイズ */
 .article img{
+    box-sizing: border-box;
     width: 70%;
     height: 400px;
     margin-top: 10px;
@@ -548,8 +549,9 @@ footer a:hover::after {
     /* 記事ページ */
 
     .article img{
-        width: 500px;
-        height: 500px;
+     
+        width: 70%;
+        height: 300px;
     }
 
 
