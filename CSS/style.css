@@ -9,7 +9,7 @@ body {
 }
 
 .menu-list{
-  background: url(images/top-wrapper.jpg);
+  background: url(../images/top-wrapper.jpg);
   height: 100vh;
   background-size: cover;
 }
