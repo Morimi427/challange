@@ -105,7 +105,7 @@ background-image: url(images/top-wrapper.jpg);
 }
 
 .container {
-  /* background-image: url(./images/top-wrapper.jpg); */
+  background-image: url(images/top-wrapper.jpg);
   margin-top: 30px;
   margin-bottom: 30px;
   padding-left: 100px;
