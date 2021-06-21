@@ -397,8 +397,8 @@ border-radius: 3px;
 
 footer{
     /* background: rgba(82, 43, 61, 0.8); */
-    background-image: url(/images/top-wrapper.jpg);
-
+    
+background: url(/images/top-wrapper.jpg);
     /* background: rgba(211, 70, 140, .8); */
     /* background: rgba(33, 111, 186,.8); */
 
