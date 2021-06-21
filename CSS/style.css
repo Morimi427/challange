@@ -39,7 +39,7 @@ background-image: url(images/top-wrapper.jpg);
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+/*   justify-content: flex-end; */
   margin-bottom: 10px;
 }
 
